@@ -1,0 +1,22 @@
+          A---B---C topic
+         /
+    D---E---F---G master
+
+    git checkout topic
+    git rebase master
+
+                  A'--B'--C' topic
+                 /
+    D---E---F---G master
+
+
+          A---B---C topic
+         /
+    D---E---A'---F master
+
+    git checkout topic
+    git rebase master
+
+                   B'---C' topic
+                  /
+    D---E---A'---F master
