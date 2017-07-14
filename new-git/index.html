@@ -96,34 +96,6 @@
                 <section>
                     <section data-markdown contenteditable>
                         <script type="text/template">
-                                1. `git init`, `add .`, `commit`, `push`
-                                    - What the heck did I with these commands?
-                                    - Time to change something and repeat those commands;
-                                    - Reverting changes: `checkout`, `reset`.
-                                1. Say Hello to `HEAD` and its siblings, the `branch`es
-                                    - `branch`, `checkout -b`, `merge`
-                                1. What is a `Pull Request`?
-                                    - performing a `pull request`
-                                    - sync the repo: `pull` or `fetch`
-                                1. Say Hello for the `issues`
-                                    1. creating issues (according to our template):
-                                        - Create a list of users;
-                                        - Create a list of things;
-                                        - Create a list of attributes;
-                                    1. Each one chose their issue and accomplish it;
-                                        - Presentting our convetions for naming branches and comments in a commit.
-                                    1. Create a new Pull Request;
-                                    1. Closing issues
-                                1. Conflicts
-                                    1. Linking those previous pages in a sigle menu;
-                                    1. Each one is accountable for their own respective link,page
-                                    1. First PR is successful, the following will not be.
-                        </script>
-                    </section>
-                </section>
-                <section>
-                    <section data-markdown contenteditable>
-                        <script type="text/template">
                             ### Comando básicos para sobreviver no terminal Linux
                             ```
                                 cd
@@ -159,11 +131,105 @@
                     </section>
                     <section><img src="assets/img/nano.png" title="nano"></section>
                     <section><img src="assets/img/vim.png" title="vim"></section>
-                    <section><img src="assets/img/vimOverPower.png" title="Aki é Body Build Poha!"></section>
+                    <section><img src="assets/img/vimOverPower.png" title="mizera!"></section>
                 </section>
 
+                <section>
+                    <section data-markdown contenteditable>
+                        <script type="text/template">
+    - git init/clone
+    - git config [--global] user.name name
+    - git config [--global] user.email em@i.l
+    - git add .
+    - git commit -m "initial commit"
+                        </script>
+                    </section>
+                    <section data-markdown contenteditable>
+                        <script type="text/template">
+                            `git init`, `add .`, `commit`, `push`
+                                - What the heck did I do with these commands?
+                                - Time to change something and repeat those commands;
+                                - Reverting changes: `checkout`, `reset`.
+                        </script>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Working Directory</li>
+                            <li>Stage Area</li>
+                            <li>.git directory (Repository)</li>
+                            <li>Remote Repository</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section data-markdown contenteditable>
+                        <script type="text/template">
+                                Unlock your Time Travelers Powers!
+
+                                    git checkout
+                                    git reset
+                        </script>
+                    </section>
+                </section>
+                <section>
+                    <section data-markdown contenteditable>
+                        <script type="text/template">
+                                Multiple Realities and Universes! Say Hello to `HEAD` and its siblings, the `branch`es
+                                - `branch`, `checkout -b`, `merge`
+                        </script>
+                    </section>
+                </section>
+                <section>
+                    <section data-markdown contenteditable>
+                                What is a `Pull Request`?
+                                - performing a `pull request`
+                                - sync the repo:
+                                    - `git pull` or `git fetch`
+                    </section>
+                    <section data-markdown contenteditable>
+                        Commands:
+
+                            git checkout -b nameB
+                            git push origin nameB
+                            git pull origin --all/nameB
+                            git fetch origin
+                            git merge nameB
+                    </section>
+                </section>
+                <section>
+                    <section data-markdown contenteditable>
+                                Say Hello for the `issues` (user stories)
+
+                                1. creating issues (according to our template):
+                                    - Create a list of users;
+                                    - Create a list of things;
+                                    - Create a list of attributes;
+                                1. Each one chose their issue and accomplish it;
+                                    - Presentting our convetions for naming branches and comments in a commit.
+                                1. Create a new Pull Request;
+                                1. Closing issues
+                    </section>
+                    <section data-markdown contenteditable>
+                    </section>
+                </section>
+                <section>
+                    <section data-markdown contenteditable>
+                        <script type="text/template">
+                                Conflicts
+                                1. Linking those previous pages in a single menu;
+                                1. Each one is accountable for their own respective link,page
+                                1. First PR is successful, the following will not be.
+                        </script>
+                    </section>
+                    <section>
+                                <h2> meld merge </h2>
+                                <img width="700" src="assets/img/meld-mary.png" alt="">
+                    </section>
+                </section>
 
                 <section>
+                    <section data-markdown contenteditable>
+                    </section>
                     <section data-markdown contenteditable>
                          ## Inicializando o git
 
@@ -201,8 +267,8 @@
                 transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
 
                 // Parallax scrolling
-                // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-                // parallaxBackgroundSize: '2100px 900px',
+                parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+                parallaxBackgroundSize: '2100px 900px',
 
                 // Optional libraries used to extend on reveal.js
                 dependencies: [
