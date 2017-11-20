@@ -1,0 +1,27 @@
+2nd Training - Git & GitHub
+===========
+
+We're assuming they have a responsive web-page, and are able to create menus, grids and/or lists
+Separated in pairs they should chose who will create the repo and add the partner.
+1. `git init`, `add .`, `commit`, `push`
+    - What the heck did I with these commands?
+    - Time to change something and repeat those commands;
+    - Reverting changes: `checkout`, `reset`.
+1. Say Hello to `HEAD` and its siblings, the `branch`es
+    - `branch`, `checkout -b`, `merge`
+1. What is a `Pull Request`?
+    - performing a `pull request`
+    - sync the repo: `pull` or `fetch`
+1. Say Hello for the `issues`
+    1. creating issues (according to our template):
+        - Create a list of users;
+        - Create a list of things;
+        - Create a list of attributes;
+    1. Each one chose their issue and accomplish it;
+        - Presentting our convetions for naming branches and comments in a commit.
+    1. Create a new Pull Request;
+    1. Closing issues
+1. Conflicts
+    1. Linking those previous pages in a sigle menu;
+    1. Each one is accountable for their own respective link,page
+    1. First PR is successful, the following will not be.
